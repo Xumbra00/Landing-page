@@ -1,3 +1,13 @@
 * {
     box-sizing: border-box;
+    color: white;
 }
+
+button {
+    color: black;
+}
+
+body {
+    background-color: black;
+}
+
