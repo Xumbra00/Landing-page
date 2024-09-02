@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0px;
     /*color: white;*/
+    outline: solid white 1px;
 }
 
 button {
@@ -14,20 +15,47 @@ body {
 
 .upboard .header {
     background-color: #1F2937;
+    display: inline-block;
     color: white;
     padding: 50px;
+    padding-top: 10px;
     border: 50px;
+    /* border-top: 0px; */
 }
 
-.awesome {
-    display: inline-block;
-    align-items: center;
-    height: 350px;
-    margin: 20px 20px 0px 20px;
+
+.top {
+    /* border: solid white 1px; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.top a {
+    margin:  0px  10px;
+}
+
+
+div {
+    flex:1;
+}
+
+.links a {
+    margin: 10px;
+    display: inline;
 }
 
 .best {
     display: flex;
+    padding: 50px;
+    justify-content: flex-between; /*crate a space between the car and the "awesome" element*/
+}
+
+.awesome .diapo {
+    
 }
 
 button {
@@ -37,8 +65,8 @@ button {
 }
 
 img {
-    width: 500px;
-    margin: 30px;
-    margin-top: 40px;
-}
+    width: 300px;
+    /* margin: 30px;
+    margin-top: 40px;*/
+} 
 
